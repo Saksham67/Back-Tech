@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJS Setup</title>
+    <!-- <style>
+      body {
+        background-color: aquamarine;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1>Hello there! <%= name %></h1>
+    <p>Here's budget friendly Smartphones</p>
+    <table border="1 px solid black">
+      <tr>
+        <th>Smartphones</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><%= products[0].title %></td>
+        <td><%= products[0].price %></td>
+      </tr>
+      <tr>
+        <td><%= products[1].title %></td>
+        <td><%= products[1].price %></td>
+      </tr>
+      <tr>
+        <td><%= products[2].title %></td>
+        <td><%= products[2].price %></td>
+      </tr>
+    </table>
+  </body>
+</html>
